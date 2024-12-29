@@ -7,9 +7,10 @@ console.log(' %c  > ^ <', 'color: #8B4513; font-size: 20px;');
 console.log('  %c /  ~ \\', 'color: #8B4513; font-size: 20px;');
 console.log('  %c/______\\', 'color: #8B4513; font-size: 20px;');
 
-document.addEventListener('contextmenu', function (event) {
-    event.preventDefault();
-});
+// 禁止右键
+// document.addEventListener('contextmenu', function (event) {
+//     event.preventDefault();
+// });
 
 function handlePress(event) {
     this.classList.add('pressed');
@@ -84,18 +85,6 @@ function getCookie(name) {
     }
     return null;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
